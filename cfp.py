@@ -39,6 +39,9 @@ def main():
     with open('cfp.xlsx', 'wb') as f:
         f.write(data.xlsx)
 
+    with open('cfp.json', 'wb') as f:
+        f.write(data.json)
+
 
 if __name__ == '__main__':
     main()
